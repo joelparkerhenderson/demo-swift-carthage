@@ -15,14 +15,11 @@ This demonstration shows:
 
 This README describes how to create the project, if you want to try doing it yourself.
 
-
 ## How to create the project
-
 
 1. Launch Xcode and create a new project. We call ours "Demo Swift Carthage". 
 
   * Need help? See our repo [demo_swift_hello_world](https://github.com/joelparkerhenderson/demo_swift_hello_world).
-
 
 1. Use the [Carthage instructions](https://github.com/Carthage/Carthage)
 
@@ -38,17 +35,13 @@ This README describes how to create the project, if you want to try doing it you
 
   * Set the "Input Files" to `$(SRCROOT)/Carthage/Build/iOS/Prelude.framework`
 
-
 ## Create a Cartfile
-
  
 1. Create a file named `Cartfile` at the top level of the project. 
-
    
 1. In the `Cartfile`, list any framework you want, such the Prelude Swift micro-framework of simple functional programming tools.
 
     github "robrix/Prelude"
-
 
 1. Run an update, and you see the system is cloning the framework and building it.
 
@@ -59,6 +52,9 @@ This README describes how to create the project, if you want to try doing it you
     *** Building scheme "Prelude-Mac" in Prelude.xcodeproj
     *** Building scheme "Prelude-iOS" in Prelude.xcodeproj
 
+ * You can now see a new file `Cartfile.resolved` that lists the version number.
+
+ * You can now see a new directory `Carthage` that contains the build.
 
 ## Verify
 
@@ -69,7 +65,6 @@ This README describes how to create the project, if you want to try doing it you
   * The app will launch normally. 
 
   * Success!
-
   
 ## Tracking
 
