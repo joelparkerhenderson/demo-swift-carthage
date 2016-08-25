@@ -45,12 +45,12 @@ This README describes how to create the project, if you want to try doing it you
 
 1. Run an update, and you see the system is cloning the framework and building it.
 
-    $ carthage update
-    *** Cloning Prelude
-    *** Checking out Prelude at "1.6.0"
-    *** xcodebuild output can be found in /var/folders/g9/6q8fc2h97bgdy60yvd97vgmc0000gn/T/carthage-xcodebuild.3cvsN5.log
-    *** Building scheme "Prelude-Mac" in Prelude.xcodeproj
-    *** Building scheme "Prelude-iOS" in Prelude.xcodeproj
+        $ carthage update
+        *** Cloning Prelude
+        *** Checking out Prelude at "1.6.0"
+        *** xcodebuild output can be found in /var/folders/g9/6q8fc2h97bgdy60yvd97vgmc0000gn/T/carthage-xcodebuild.3cvsN5.log
+        *** Building scheme "Prelude-Mac" in Prelude.xcodeproj
+        *** Building scheme "Prelude-iOS" in Prelude.xcodeproj
 
  * You can now see a new file `Cartfile.resolved` that lists the version number.
 
