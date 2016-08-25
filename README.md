@@ -11,6 +11,8 @@ This demonstration shows:
 
  * The [Carthage](https://github.com/Carthage/Carthage) dependency manager.
 
+ * The [Prelude](https://github.com/robrix/Prelude) Swift micro-framework of simple functional programming tools.
+
 This README describes how to create the project, if you want to try doing it yourself.
 
 
