@@ -22,19 +22,25 @@ Or if you prefer to learn how to create the project yourself, then this README e
 
 1. Launch Xcode. 
 
-1. `File` → `New`. 
+1. Choose "File" → "New" → "Project". 
+
+1. You see the dialog "Choose a template for your new project".
+
+  * Choose the "iOS" radio button.
 
   * Choose a template for your new project. We use "Single View Application".
 
-  * Click `Next`.
+  * Click the button "Next".
 
 1. Choose your product settings.
 
-  * For "Product Name", type anything you want. We use "Demo Swift Carthage". 
+  * For "Product Name", type "Demo Swift Carthage".
 
-  * Set the rest of the settings as you like.
+  * For "Organization Name", type your own, typical a company name, team name, or similiar. For example, "My Example Company Name".
 
-  * Click `Next`.
+  * For "Organization Identifier", type your own, typically a reverse-domain-name. For example, "com.example".
+
+  * Click the button "Next".
 
 1. If Xcode prompts you to choose a development team, then do it.
 
