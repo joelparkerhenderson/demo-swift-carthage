@@ -4,36 +4,64 @@
 
 This demonstration shows:
 
- * The [Swift](http://swift.org) programming language with
+ * The [Swift 3](http://swift.org) programming language with
    [Apple](http://apple.com)
-   [iOS](http://www.apple.com/ios/)
-   [Xcode](https://developer.apple.com/xcode/)
+   [iOS 10](http://www.apple.com/ios/) and
+   [Xcode 8](https://developer.apple.com/xcode/)
 
  * The [Carthage](https://github.com/Carthage/Carthage) dependency manager.
 
  * The [Prelude](https://github.com/robrix/Prelude) Swift micro-framework of simple functional programming tools.
 
-This README describes how to create the project, if you want to try doing it yourself.
+Your can get the project by cloning this repo.
+
+Or if you prefer to learn how to create the project yourself, then this README explains how to do it.
+
 
 ## How to create the project
 
-1. Launch Xcode and create a new project. We call ours "Demo Swift Carthage". 
+1. Launch Xcode. 
 
-  * Need help? See our repo [demo_swift_hello_world](https://github.com/joelparkerhenderson/demo_swift_hello_world).
+1. `File` → `New`. 
 
-1. Use the [Carthage instructions](https://github.com/Carthage/Carthage)
+  * Choose a template for your new project. We use "Single View Application".
 
-  * We are focusing this project on iOS.
+  * Click `Next`.
 
-  * Go to the Xcode project "Build Phases" settings area.
+1. Choose your product settings.
+
+  * For "Product Name", type anything you want. We use "Demo Swift Carthage". 
+
+  * Set the rest of the settings as you like.
+
+  * Click `Next`.
+
+1. If Xcode prompts you to choose a development team, then do it.
+
+1. Need help? See our repo [demo_swift_hello_world](https://github.com/joelparkerhenderson/demo_swift_hello_world).
+
+
+## Add Carthage
+
+1. To see if you have Carthage installed, and if it is current, run this command:
+
+    $ carthage version
+    0.17.2
+
+1. If you need to install Carthage, follow these [Carthage instructions](https://github.com/Carthage/Carthage)
+
+1. Go to the Xcode project "Build Phases" settings area.
 
   * Click the "+" icon and choose to add a new "Run Script".
 
   * Set the "Shell" field to `/bin/sh`. 
 
-  * Set the command field to `/usr/local/bin/carthage copy-frameworks`
+  * Set the big blank command field to `/usr/local/bin/carthage copy-frameworks`
+
+  * In the area "Add input files here", click "+".
 
   * Set the "Input Files" to `$(SRCROOT)/Carthage/Build/iOS/Prelude.framework`
+
 
 ## Create a Cartfile
  
@@ -43,18 +71,34 @@ This README describes how to create the project, if you want to try doing it you
 
     github "robrix/Prelude"
 
-1. Run an update, and you see the system is cloning the framework and building it.
+1. Run an update, and you see the system is getting the framework.
 
-        $ carthage update
-        *** Cloning Prelude
-        *** Checking out Prelude at "1.6.0"
-        *** xcodebuild output can be found in /var/folders/…/carthage-xcodebuild….log
-        *** Building scheme "Prelude-Mac" in Prelude.xcodeproj
-        *** Building scheme "Prelude-iOS" in Prelude.xcodeproj
+    $ carthage update
+    *** Fetching Prelude
+    *** Downloading Prelude.framework binary at "2.0"
+    *** xcodebuild output can be found in /var/folders/…
 
-1. You can now see a new file `Cartfile.resolved` that lists the version number.
+1. See the results if you like.
 
-1. You can now see a new directory `Carthage` that contains the build.
+  * You now have a new directory `Carthage` that contains the Build directory and the framework files.
+
+  * You now have a new file `Cartfile.resolved` that lists the framework and its exact version number.
+
+    $ ls -1
+    Cartfile
+    Cartfile.resolved
+    Carthage
+    Demo Swift Carthage
+    Demo Swift Carthage.xcodeproj
+    Demo Swift CarthageTests
+    Demo Swift CarthageUITests
+
+    $ ls Carthage
+    Build
+
+    $ cat Cartfile.resolved
+    github "robrix/Prelude" "2.0.0"
+
 
 ## Verify
 
@@ -65,12 +109,13 @@ This README describes how to create the project, if you want to try doing it you
   * The app will launch normally. 
 
   * Success!
+
   
 ## Tracking
 
 * Package: demo_swift_carthage
-* Version: 1.0.0
+* Version: 2.0.0
 * Created: 2016-04-09
-* Updated: 2016-08-25
+* Updated: 2016-09-18
 * License: BSD, MIT, GPL
 * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
