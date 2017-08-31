@@ -58,11 +58,13 @@ Or if you prefer to learn how to create the project yourself, then this README e
 
 1. Go to the Xcode project "Build Phases" settings area.
 
-  * Click the "+" icon and choose to add a new "Run Script".
+  * Click the "+" icon, then choose to add a new "Run Script".
 
-  * Set the "Shell" field to `/bin/sh`. 
+  * Click the triangle by the new "Run Script" list item.
 
-  * Set the big blank command field to `/usr/local/bin/carthage copy-frameworks`
+  * The "Shell" field should say `/bin/sh`.
+
+  * Set the bigger text field to say `/usr/local/bin/carthage copy-frameworks`
 
   * In the area "Add input files here", click "+".
 
