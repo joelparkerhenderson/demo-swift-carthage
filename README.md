@@ -13,61 +13,36 @@ This demonstration shows:
 
   * The [Prelude](https://github.com/robrix/Prelude) Swift micro-framework of simple functional programming tools.
 
-There are multiple git branches so pick the one you want:
+
+## Start
+
+To use this demo, you can clone this repo, or you can use this README to create your own project.
+
+If you clone this repo, then be aware that there are multiple git branches, so pick the one you want.
 
   * swift-4-xcode-9: Swift version 4, Xcode version 9, iOS version 11.
 
   * swift-3-xcode-8: Swift version 3, Xcode version 8, iOS version 10.
 
-To use this project:
 
-  * You can clone this repo.
+## Create the project
 
-  * Or you can create the project yourself by using this README that explains how to do it.
+Launch Xcode and create a new Xcode project.
+
+  * Use iOS template "Single View Application" and Product Name "Demo Swift Carthage".
+
+  * [Help](doc/setup/create_a_new_xcode_project.md)
+
+Add Charts to the project. We suggest using Carthage, or Cocoapods, or Swift Package Manager.
+
+  * The repo is `github "danielgindi/Charts"`.
+
+  * [Help](doc/setup/add_carthage_frameworks.md)
 
 
 ## Create the project
 
-Launch Xcode. 
 
-Choose "File" → "New" → "Project". 
-
-You see the dialog "Choose a template for your new project".
-
-  * Choose the "iOS" radio button.
-
-  * Choose the "Single View Application" icon.
-
-  * Tap the button "Next".
-
-You see the dialog "Choose options for your new project".
-
-  * For "Product Name", type "Demo Swift Hello World".
-
-  * For "Organization Name", type anything you want; typically this is your company's name, or team's name, or similiar. For example, "Example Company".
-
-  * For "Organization Identifier", type anything you want; typically this is your company's reverse domain name. For example, "com.example".
-
-  * Tap the button "Next".
-
-You see the file chooser.
-
-  * Choose where to save your project.
-
-  * Tap the button "Create".
-
-  * Xcode creates the project.
-
-
-## Sign the project
-
-If Xcode shows a "Signing" area with a "Status" alert icon, here's how to solve it.
-
-  * Xcode may show a message such as "Signing for "Demo Swift Hello World" requires a development team. Select a development team in the project editor."
-
-  * In the same "Signing" section, choose the "Team" dropdown, and choose your Apple ID.
-
-  * If there's no Apple ID, then you need to add yours: Xcode → Preferences → Accounts → the "+" button → Add Apple ID
 
 
 ## Run the project
@@ -113,10 +88,12 @@ Edit the `Cartfile`.
 
 Update.
 
-    $ carthage update
-    *** Fetching Prelude
-    *** Downloading Prelude.framework binary at "2.0"
-    *** xcodebuild output can be found in /var/folders/…
+```shell
+$ carthage update
+*** Fetching Prelude
+*** Downloading Prelude.framework binary at "2.0"
+*** xcodebuild output can be found in /var/folders/…
+```
 
 See the results if you like.
 
@@ -124,21 +101,22 @@ See the results if you like.
 
   * There is a new directory `Carthage`. This contains the `Build` directory and the framework files.
 
-    $ ls -1
-    Cartfile
-    Cartfile.resolved
-    Carthage
-    Demo Swift Carthage
-    Demo Swift Carthage.xcodeproj
-    Demo Swift CarthageTests
-    Demo Swift CarthageUITests
+```shell
+$ ls -1
+Cartfile
+Cartfile.resolved
+Carthage
+Demo Swift Carthage
+Demo Swift Carthage.xcodeproj
+Demo Swift CarthageTests
+Demo Swift CarthageUITests
 
-    $ ls Carthage
-    Build
+$ ls Carthage
+Build
 
-    $ cat Cartfile.resolved
-    github "robrix/Prelude" "2.0.0"
-
+$ cat Cartfile.resolved
+github "robrix/Prelude" "2.0.0"
+```
 
 ## Link the framework
 
