@@ -34,55 +34,55 @@ To use this project:
 
 1. You see the dialog "Choose a template for your new project".
 
-  * Choose the "iOS" radio button.
+    * Choose the "iOS" radio button.
 
-  * Choose the "Single View Application" icon.
+    * Choose the "Single View Application" icon.
 
-  * Tap the button "Next".
+    * Tap the button "Next".
 
 1. You see the dialog "Choose options for your new project".
 
-  * For "Product Name", type "Demo Swift Hello World".
+    * For "Product Name", type "Demo Swift Hello World".
 
-  * For "Organization Name", type anything you want; typically this is your company's name, or team's name, or similiar. For example, "Example Company".
+    * For "Organization Name", type anything you want; typically this is your company's name, or team's name, or similiar. For example, "Example Company".
 
-  * For "Organization Identifier", type anything you want; typically this is your company's reverse domain name. For example, "com.example".
+    * For "Organization Identifier", type anything you want; typically this is your company's reverse domain name. For example, "com.example".
 
-  * Tap the button "Next".
+    * Tap the button "Next".
 
 1. You see the file chooser.
 
-  * Choose where to save your project.
+    * Choose where to save your project.
 
-  * Tap the button "Create".
+    * Tap the button "Create".
 
-  * Xcode creates the project.
+    * Xcode creates the project.
 
 
 ## How to sign the project
 
 1. If Xcode shows a "Signing" area with a "Status" alert icon, here's how to solve it.
 
-  * Xcode may show a message such as "Signing for "Demo Swift Hello World" requires a development team. Select a development team in the project editor."
+    * Xcode may show a message such as "Signing for "Demo Swift Hello World" requires a development team. Select a development team in the project editor."
 
-  * In the same "Signing" section, choose the "Team" dropdown, and choose your Apple ID.
+    * In the same "Signing" section, choose the "Team" dropdown, and choose your Apple ID.
 
-  * If there's no Apple ID, then you need to add yours: Xcode → Preferences → Accounts → the "+" button → Add Apple ID
+    * If there's no Apple ID, then you need to add yours: Xcode → Preferences → Accounts → the "+" button → Add Apple ID
 
 
 ## How to run
 
 1. Run the project.
 
-  * Xcode → Product → Run
+    * Xcode → Product → Run
 
-  * This is simply to verify that the project runs so far.
+    * This is simply to verify that the project runs so far.
 
 1. The Simulator launches.
 
-  * The Simulator shows a blank screen.
+    * The Simulator shows a blank screen.
 
-  * Quit the Simulator and go back to using Xcode.
+    * Quit the Simulator and go back to using Xcode.
 
 
 ## Get Carthage
@@ -94,7 +94,7 @@ To use this project:
 
 1. If Carthage is not installed, or the version is lower than 0.25.0:
 
-  * Use these [Carthage instructions](https://github.com/Carthage/Carthage)
+    * Use these [Carthage instructions](https://github.com/Carthage/Carthage)
 
 
 ## Create a Cartfile
@@ -103,11 +103,11 @@ To use this project:
    
 1. Edit the `Cartfile`.
 
-  * You can add any framework you want. 
+    * You can add any framework you want. 
 
-  * For this demo, we add the "Prelude" framework, which is provides programming functions.
+    * For this demo, we add the "Prelude" framework, which is provides programming functions.
 
-  * Add this text:
+    * Add this text:
 
       github "robrix/Prelude"
 
@@ -120,7 +120,7 @@ To use this project:
 
 1. See the results if you like.
 
-  * There is a new file `Cartfile.resolved` that lists the framework and its exact version number.
+    * There is a new file `Cartfile.resolved` that lists the framework and its exact version number.
 
   * There is a new directory `Carthage`. This contains the `Build` directory and the framework files.
 
@@ -148,21 +148,21 @@ To use this project:
 
 1. Tap the "+" icon.
 
-  * A dialog opens that says "Choose frameworks and libraries to add".
+    * A dialog opens that says "Choose frameworks and libraries to add".
 
-  * Tap the button "Add Other..."
+    * Tap the button "Add Other..."
 
 1. Choose the framework.
 
-  * A file chooser opens.
+    * A file chooser opens.
 
-  * Navigate up a folder, and you see the "Carthage" folder.
+    * Navigate up a folder, and you see the "Carthage" folder.
 
-  * Open the folder "Carthage", then the folder "Build", then the folder "iOS".
+    * Open the folder "Carthage", then the folder "Build", then the folder "iOS".
 
-  * Tap the file "Prelude.framework" to highlight it.
+    * Tap the file "Prelude.framework" to highlight it.
 
-  * Tap "Open"
+    * Tap "Open"
 
 1. The section "Linked Frameworks and Libraries" now shows "Prelude.framework".
 
@@ -172,36 +172,36 @@ To use this project:
 
 1. Go to the Xcode project "Build Phases" settings area.
 
-  * Click the "+" icon, then choose "New Run Script Phase".
+    * Click the "+" icon, then choose "New Run Script Phase".
 
-  * Click the triangle by the new "Run Script" list item.
+    * Click the triangle by the new "Run Script" list item.
 
-  * The "Shell" field should say `/bin/sh`.
+    * The "Shell" field should say `/bin/sh`.
 
-  * The larger text field should say `Type a script or drag a script file from your workspace to insert its path`.
+    * The larger text field should say `Type a script or drag a script file from your workspace to insert its path`.
 
-  * Set the larger text field to say `/usr/local/bin/carthage copy-frameworks`
+    * Set the larger text field to say `/usr/local/bin/carthage copy-frameworks`
 
 1. Add input files.
 
-  * In the area "Add input files here", click "+".
+    * In the area "Add input files here", click "+".
 
-  * Set the "Input Files" to `$(SRCROOT)/Carthage/Build/iOS/Prelude.framework`
+    * Set the "Input Files" to `$(SRCROOT)/Carthage/Build/iOS/Prelude.framework`
 
 
 ## Run
 
 1. Run the project.
 
-  * Xcode → Product → Run
+    * Xcode → Product → Run
 
 1. The Simulator launches.
 
-  * The app will launch normally. 
+    * The app will launch normally. 
 
-  * This verifies that Carthage can connect the files.
+    * This verifies that Carthage can connect the files.
 
-  * Congratulations! You're successful!
+    * Congratulations! You're successful!
 
   
 ## Tracking
