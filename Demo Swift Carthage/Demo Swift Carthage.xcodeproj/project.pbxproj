@@ -7,66 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DA2728C1D8F843500CD47EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2728B1D8F843500CD47EF /* AppDelegate.swift */; };
-		5DA2728E1D8F843500CD47EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2728D1D8F843500CD47EF /* ViewController.swift */; };
-		5DA272911D8F843600CD47EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA2728F1D8F843600CD47EF /* Main.storyboard */; };
-		5DA272941D8F843600CD47EF /* Demo_Swift_Carthage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DA272921D8F843600CD47EF /* Demo_Swift_Carthage.xcdatamodeld */; };
-		5DA272961D8F843600CD47EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA272951D8F843600CD47EF /* Assets.xcassets */; };
-		5DA272991D8F843600CD47EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA272971D8F843600CD47EF /* LaunchScreen.storyboard */; };
-		5DA272A41D8F843600CD47EF /* Demo_Swift_CarthageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA272A31D8F843600CD47EF /* Demo_Swift_CarthageTests.swift */; };
-		5DA272AF1D8F843600CD47EF /* Demo_Swift_CarthageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA272AE1D8F843600CD47EF /* Demo_Swift_CarthageUITests.swift */; };
+		5D80A2271F74DDFA00299BD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D80A2261F74DDFA00299BD5 /* AppDelegate.swift */; };
+		5D80A2291F74DDFA00299BD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D80A2281F74DDFA00299BD5 /* ViewController.swift */; };
+		5D80A22C1F74DDFA00299BD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D80A22A1F74DDFA00299BD5 /* Main.storyboard */; };
+		5D80A22E1F74DDFA00299BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D80A22D1F74DDFA00299BD5 /* Assets.xcassets */; };
+		5D80A2311F74DDFA00299BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D80A22F1F74DDFA00299BD5 /* LaunchScreen.storyboard */; };
+		5D80A23C1F74DDFB00299BD5 /* Demo_Swift_CarthageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D80A23B1F74DDFB00299BD5 /* Demo_Swift_CarthageTests.swift */; };
+		5D80A2471F74DDFB00299BD5 /* Demo_Swift_CarthageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D80A2461F74DDFB00299BD5 /* Demo_Swift_CarthageUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5DA272A01D8F843600CD47EF /* PBXContainerItemProxy */ = {
+		5D80A2381F74DDFB00299BD5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5DA272801D8F843500CD47EF /* Project object */;
+			containerPortal = 5D80A21B1F74DDFA00299BD5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5DA272871D8F843500CD47EF;
+			remoteGlobalIDString = 5D80A2221F74DDFA00299BD5;
 			remoteInfo = "Demo Swift Carthage";
 		};
-		5DA272AB1D8F843600CD47EF /* PBXContainerItemProxy */ = {
+		5D80A2431F74DDFB00299BD5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5DA272801D8F843500CD47EF /* Project object */;
+			containerPortal = 5D80A21B1F74DDFA00299BD5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5DA272871D8F843500CD47EF;
+			remoteGlobalIDString = 5D80A2221F74DDFA00299BD5;
 			remoteInfo = "Demo Swift Carthage";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5DA272881D8F843500CD47EF /* Demo Swift Carthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo Swift Carthage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DA2728B1D8F843500CD47EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5DA2728D1D8F843500CD47EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5DA272901D8F843600CD47EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5DA272931D8F843600CD47EF /* Demo_Swift_Carthage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo_Swift_Carthage.xcdatamodel; sourceTree = "<group>"; };
-		5DA272951D8F843600CD47EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5DA272981D8F843600CD47EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5DA2729A1D8F843600CD47EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DA2729F1D8F843600CD47EF /* Demo Swift CarthageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo Swift CarthageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DA272A31D8F843600CD47EF /* Demo_Swift_CarthageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Swift_CarthageTests.swift; sourceTree = "<group>"; };
-		5DA272A51D8F843600CD47EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DA272AA1D8F843600CD47EF /* Demo Swift CarthageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo Swift CarthageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DA272AE1D8F843600CD47EF /* Demo_Swift_CarthageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Swift_CarthageUITests.swift; sourceTree = "<group>"; };
-		5DA272B01D8F843600CD47EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D80A2231F74DDFA00299BD5 /* Demo Swift Carthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo Swift Carthage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D80A2261F74DDFA00299BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D80A2281F74DDFA00299BD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D80A22B1F74DDFA00299BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D80A22D1F74DDFA00299BD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D80A2301F74DDFA00299BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D80A2321F74DDFA00299BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D80A2371F74DDFB00299BD5 /* Demo Swift CarthageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo Swift CarthageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D80A23B1F74DDFB00299BD5 /* Demo_Swift_CarthageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Swift_CarthageTests.swift; sourceTree = "<group>"; };
+		5D80A23D1F74DDFB00299BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D80A2421F74DDFB00299BD5 /* Demo Swift CarthageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo Swift CarthageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D80A2461F74DDFB00299BD5 /* Demo_Swift_CarthageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Swift_CarthageUITests.swift; sourceTree = "<group>"; };
+		5D80A2481F74DDFB00299BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5DA272851D8F843500CD47EF /* Frameworks */ = {
+		5D80A2201F74DDFA00299BD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DA2729C1D8F843600CD47EF /* Frameworks */ = {
+		5D80A2341F74DDFB00299BD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DA272A71D8F843600CD47EF /* Frameworks */ = {
+		5D80A23F1F74DDFB00299BD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5DA2727F1D8F843500CD47EF = {
+		5D80A21A1F74DDFA00299BD5 = {
 			isa = PBXGroup;
 			children = (
-				5DA2728A1D8F843500CD47EF /* Demo Swift Carthage */,
-				5DA272A21D8F843600CD47EF /* Demo Swift CarthageTests */,
-				5DA272AD1D8F843600CD47EF /* Demo Swift CarthageUITests */,
-				5DA272891D8F843500CD47EF /* Products */,
+				5D80A2251F74DDFA00299BD5 /* Demo Swift Carthage */,
+				5D80A23A1F74DDFB00299BD5 /* Demo Swift CarthageTests */,
+				5D80A2451F74DDFB00299BD5 /* Demo Swift CarthageUITests */,
+				5D80A2241F74DDFA00299BD5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5DA272891D8F843500CD47EF /* Products */ = {
+		5D80A2241F74DDFA00299BD5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DA272881D8F843500CD47EF /* Demo Swift Carthage.app */,
-				5DA2729F1D8F843600CD47EF /* Demo Swift CarthageTests.xctest */,
-				5DA272AA1D8F843600CD47EF /* Demo Swift CarthageUITests.xctest */,
+				5D80A2231F74DDFA00299BD5 /* Demo Swift Carthage.app */,
+				5D80A2371F74DDFB00299BD5 /* Demo Swift CarthageTests.xctest */,
+				5D80A2421F74DDFB00299BD5 /* Demo Swift CarthageUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5DA2728A1D8F843500CD47EF /* Demo Swift Carthage */ = {
+		5D80A2251F74DDFA00299BD5 /* Demo Swift Carthage */ = {
 			isa = PBXGroup;
 			children = (
-				5DA2728B1D8F843500CD47EF /* AppDelegate.swift */,
-				5DA2728D1D8F843500CD47EF /* ViewController.swift */,
-				5DA2728F1D8F843600CD47EF /* Main.storyboard */,
-				5DA272951D8F843600CD47EF /* Assets.xcassets */,
-				5DA272971D8F843600CD47EF /* LaunchScreen.storyboard */,
-				5DA2729A1D8F843600CD47EF /* Info.plist */,
-				5DA272921D8F843600CD47EF /* Demo_Swift_Carthage.xcdatamodeld */,
+				5D80A2261F74DDFA00299BD5 /* AppDelegate.swift */,
+				5D80A2281F74DDFA00299BD5 /* ViewController.swift */,
+				5D80A22A1F74DDFA00299BD5 /* Main.storyboard */,
+				5D80A22D1F74DDFA00299BD5 /* Assets.xcassets */,
+				5D80A22F1F74DDFA00299BD5 /* LaunchScreen.storyboard */,
+				5D80A2321F74DDFA00299BD5 /* Info.plist */,
 			);
 			path = "Demo Swift Carthage";
 			sourceTree = "<group>";
 		};
-		5DA272A21D8F843600CD47EF /* Demo Swift CarthageTests */ = {
+		5D80A23A1F74DDFB00299BD5 /* Demo Swift CarthageTests */ = {
 			isa = PBXGroup;
 			children = (
-				5DA272A31D8F843600CD47EF /* Demo_Swift_CarthageTests.swift */,
-				5DA272A51D8F843600CD47EF /* Info.plist */,
+				5D80A23B1F74DDFB00299BD5 /* Demo_Swift_CarthageTests.swift */,
+				5D80A23D1F74DDFB00299BD5 /* Info.plist */,
 			);
 			path = "Demo Swift CarthageTests";
 			sourceTree = "<group>";
 		};
-		5DA272AD1D8F843600CD47EF /* Demo Swift CarthageUITests */ = {
+		5D80A2451F74DDFB00299BD5 /* Demo Swift CarthageUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5DA272AE1D8F843600CD47EF /* Demo_Swift_CarthageUITests.swift */,
-				5DA272B01D8F843600CD47EF /* Info.plist */,
+				5D80A2461F74DDFB00299BD5 /* Demo_Swift_CarthageUITests.swift */,
+				5D80A2481F74DDFB00299BD5 /* Info.plist */,
 			);
 			path = "Demo Swift CarthageUITests";
 			sourceTree = "<group>";
@@ -131,14 +128,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DA272871D8F843500CD47EF /* Demo Swift Carthage */ = {
+		5D80A2221F74DDFA00299BD5 /* Demo Swift Carthage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DA272B31D8F843600CD47EF /* Build configuration list for PBXNativeTarget "Demo Swift Carthage" */;
+			buildConfigurationList = 5D80A24B1F74DDFB00299BD5 /* Build configuration list for PBXNativeTarget "Demo Swift Carthage" */;
 			buildPhases = (
-				5DA272841D8F843500CD47EF /* Sources */,
-				5DA272851D8F843500CD47EF /* Frameworks */,
-				5DA272861D8F843500CD47EF /* Resources */,
-				5DA272BC1D8F850900CD47EF /* ShellScript */,
+				5D80A21F1F74DDFA00299BD5 /* Sources */,
+				5D80A2201F74DDFA00299BD5 /* Frameworks */,
+				5D80A2211F74DDFA00299BD5 /* Resources */,
+				5D80A2541F74DE8600299BD5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -146,73 +143,73 @@
 			);
 			name = "Demo Swift Carthage";
 			productName = "Demo Swift Carthage";
-			productReference = 5DA272881D8F843500CD47EF /* Demo Swift Carthage.app */;
+			productReference = 5D80A2231F74DDFA00299BD5 /* Demo Swift Carthage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5DA2729E1D8F843600CD47EF /* Demo Swift CarthageTests */ = {
+		5D80A2361F74DDFB00299BD5 /* Demo Swift CarthageTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DA272B61D8F843600CD47EF /* Build configuration list for PBXNativeTarget "Demo Swift CarthageTests" */;
+			buildConfigurationList = 5D80A24E1F74DDFB00299BD5 /* Build configuration list for PBXNativeTarget "Demo Swift CarthageTests" */;
 			buildPhases = (
-				5DA2729B1D8F843600CD47EF /* Sources */,
-				5DA2729C1D8F843600CD47EF /* Frameworks */,
-				5DA2729D1D8F843600CD47EF /* Resources */,
+				5D80A2331F74DDFB00299BD5 /* Sources */,
+				5D80A2341F74DDFB00299BD5 /* Frameworks */,
+				5D80A2351F74DDFB00299BD5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5DA272A11D8F843600CD47EF /* PBXTargetDependency */,
+				5D80A2391F74DDFB00299BD5 /* PBXTargetDependency */,
 			);
 			name = "Demo Swift CarthageTests";
 			productName = "Demo Swift CarthageTests";
-			productReference = 5DA2729F1D8F843600CD47EF /* Demo Swift CarthageTests.xctest */;
+			productReference = 5D80A2371F74DDFB00299BD5 /* Demo Swift CarthageTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5DA272A91D8F843600CD47EF /* Demo Swift CarthageUITests */ = {
+		5D80A2411F74DDFB00299BD5 /* Demo Swift CarthageUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DA272B91D8F843600CD47EF /* Build configuration list for PBXNativeTarget "Demo Swift CarthageUITests" */;
+			buildConfigurationList = 5D80A2511F74DDFB00299BD5 /* Build configuration list for PBXNativeTarget "Demo Swift CarthageUITests" */;
 			buildPhases = (
-				5DA272A61D8F843600CD47EF /* Sources */,
-				5DA272A71D8F843600CD47EF /* Frameworks */,
-				5DA272A81D8F843600CD47EF /* Resources */,
+				5D80A23E1F74DDFB00299BD5 /* Sources */,
+				5D80A23F1F74DDFB00299BD5 /* Frameworks */,
+				5D80A2401F74DDFB00299BD5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5DA272AC1D8F843600CD47EF /* PBXTargetDependency */,
+				5D80A2441F74DDFB00299BD5 /* PBXTargetDependency */,
 			);
 			name = "Demo Swift CarthageUITests";
 			productName = "Demo Swift CarthageUITests";
-			productReference = 5DA272AA1D8F843600CD47EF /* Demo Swift CarthageUITests.xctest */;
+			productReference = 5D80A2421F74DDFB00299BD5 /* Demo Swift CarthageUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5DA272801D8F843500CD47EF /* Project object */ = {
+		5D80A21B1F74DDFA00299BD5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Joel Parker Henderson";
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JoelParkerHenderson.com;
 				TargetAttributes = {
-					5DA272871D8F843500CD47EF = {
-						CreatedOnToolsVersion = 8.0;
+					5D80A2221F74DDFA00299BD5 = {
+						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = G863BF9CVX;
 						ProvisioningStyle = Automatic;
 					};
-					5DA2729E1D8F843600CD47EF = {
-						CreatedOnToolsVersion = 8.0;
+					5D80A2361F74DDFB00299BD5 = {
+						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 5DA272871D8F843500CD47EF;
+						TestTargetID = 5D80A2221F74DDFA00299BD5;
 					};
-					5DA272A91D8F843600CD47EF = {
-						CreatedOnToolsVersion = 8.0;
+					5D80A2411F74DDFB00299BD5 = {
+						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 5DA272871D8F843500CD47EF;
+						TestTargetID = 5D80A2221F74DDFA00299BD5;
 					};
 				};
 			};
-			buildConfigurationList = 5DA272831D8F843500CD47EF /* Build configuration list for PBXProject "Demo Swift Carthage" */;
+			buildConfigurationList = 5D80A21E1F74DDFA00299BD5 /* Build configuration list for PBXProject "Demo Swift Carthage" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,37 +217,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 5DA2727F1D8F843500CD47EF;
-			productRefGroup = 5DA272891D8F843500CD47EF /* Products */;
+			mainGroup = 5D80A21A1F74DDFA00299BD5;
+			productRefGroup = 5D80A2241F74DDFA00299BD5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DA272871D8F843500CD47EF /* Demo Swift Carthage */,
-				5DA2729E1D8F843600CD47EF /* Demo Swift CarthageTests */,
-				5DA272A91D8F843600CD47EF /* Demo Swift CarthageUITests */,
+				5D80A2221F74DDFA00299BD5 /* Demo Swift Carthage */,
+				5D80A2361F74DDFB00299BD5 /* Demo Swift CarthageTests */,
+				5D80A2411F74DDFB00299BD5 /* Demo Swift CarthageUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5DA272861D8F843500CD47EF /* Resources */ = {
+		5D80A2211F74DDFA00299BD5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA272991D8F843600CD47EF /* LaunchScreen.storyboard in Resources */,
-				5DA272961D8F843600CD47EF /* Assets.xcassets in Resources */,
-				5DA272911D8F843600CD47EF /* Main.storyboard in Resources */,
+				5D80A2311F74DDFA00299BD5 /* LaunchScreen.storyboard in Resources */,
+				5D80A22E1F74DDFA00299BD5 /* Assets.xcassets in Resources */,
+				5D80A22C1F74DDFA00299BD5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DA2729D1D8F843600CD47EF /* Resources */ = {
+		5D80A2351F74DDFB00299BD5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DA272A81D8F843600CD47EF /* Resources */ = {
+		5D80A2401F74DDFB00299BD5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,7 +257,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5DA272BC1D8F850900CD47EF /* ShellScript */ = {
+		5D80A2541F74DE8600299BD5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,65 +270,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5DA272841D8F843500CD47EF /* Sources */ = {
+		5D80A21F1F74DDFA00299BD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA2728E1D8F843500CD47EF /* ViewController.swift in Sources */,
-				5DA272941D8F843600CD47EF /* Demo_Swift_Carthage.xcdatamodeld in Sources */,
-				5DA2728C1D8F843500CD47EF /* AppDelegate.swift in Sources */,
+				5D80A2291F74DDFA00299BD5 /* ViewController.swift in Sources */,
+				5D80A2271F74DDFA00299BD5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DA2729B1D8F843600CD47EF /* Sources */ = {
+		5D80A2331F74DDFB00299BD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA272A41D8F843600CD47EF /* Demo_Swift_CarthageTests.swift in Sources */,
+				5D80A23C1F74DDFB00299BD5 /* Demo_Swift_CarthageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DA272A61D8F843600CD47EF /* Sources */ = {
+		5D80A23E1F74DDFB00299BD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA272AF1D8F843600CD47EF /* Demo_Swift_CarthageUITests.swift in Sources */,
+				5D80A2471F74DDFB00299BD5 /* Demo_Swift_CarthageUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5DA272A11D8F843600CD47EF /* PBXTargetDependency */ = {
+		5D80A2391F74DDFB00299BD5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5DA272871D8F843500CD47EF /* Demo Swift Carthage */;
-			targetProxy = 5DA272A01D8F843600CD47EF /* PBXContainerItemProxy */;
+			target = 5D80A2221F74DDFA00299BD5 /* Demo Swift Carthage */;
+			targetProxy = 5D80A2381F74DDFB00299BD5 /* PBXContainerItemProxy */;
 		};
-		5DA272AC1D8F843600CD47EF /* PBXTargetDependency */ = {
+		5D80A2441F74DDFB00299BD5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5DA272871D8F843500CD47EF /* Demo Swift Carthage */;
-			targetProxy = 5DA272AB1D8F843600CD47EF /* PBXContainerItemProxy */;
+			target = 5D80A2221F74DDFA00299BD5 /* Demo Swift Carthage */;
+			targetProxy = 5D80A2431F74DDFB00299BD5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5DA2728F1D8F843600CD47EF /* Main.storyboard */ = {
+		5D80A22A1F74DDFA00299BD5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5DA272901D8F843600CD47EF /* Base */,
+				5D80A22B1F74DDFA00299BD5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5DA272971D8F843600CD47EF /* LaunchScreen.storyboard */ = {
+		5D80A22F1F74DDFA00299BD5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5DA272981D8F843600CD47EF /* Base */,
+				5D80A2301F74DDFA00299BD5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -339,11 +334,12 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5DA272B11D8F843600CD47EF /* Debug */ = {
+		5D80A2491F74DDFB00299BD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -357,7 +353,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -379,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -389,11 +385,12 @@
 			};
 			name = Debug;
 		};
-		5DA272B21D8F843600CD47EF /* Release */ = {
+		5D80A24A1F74DDFB00299BD5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -407,7 +404,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -423,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -432,7 +429,7 @@
 			};
 			name = Release;
 		};
-		5DA272B41D8F843600CD47EF /* Debug */ = {
+		5D80A24C1F74DDFB00299BD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -445,7 +442,7 @@
 			};
 			name = Debug;
 		};
-		5DA272B51D8F843600CD47EF /* Release */ = {
+		5D80A24D1F74DDFB00299BD5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -458,7 +455,7 @@
 			};
 			name = Release;
 		};
-		5DA272B71D8F843600CD47EF /* Debug */ = {
+		5D80A24F1F74DDFB00299BD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -472,7 +469,7 @@
 			};
 			name = Debug;
 		};
-		5DA272B81D8F843600CD47EF /* Release */ = {
+		5D80A2501F74DDFB00299BD5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -486,7 +483,7 @@
 			};
 			name = Release;
 		};
-		5DA272BA1D8F843600CD47EF /* Debug */ = {
+		5D80A2521F74DDFB00299BD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -499,7 +496,7 @@
 			};
 			name = Debug;
 		};
-		5DA272BB1D8F843600CD47EF /* Release */ = {
+		5D80A2531F74DDFB00299BD5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -515,53 +512,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DA272831D8F843500CD47EF /* Build configuration list for PBXProject "Demo Swift Carthage" */ = {
+		5D80A21E1F74DDFA00299BD5 /* Build configuration list for PBXProject "Demo Swift Carthage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DA272B11D8F843600CD47EF /* Debug */,
-				5DA272B21D8F843600CD47EF /* Release */,
+				5D80A2491F74DDFB00299BD5 /* Debug */,
+				5D80A24A1F74DDFB00299BD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DA272B31D8F843600CD47EF /* Build configuration list for PBXNativeTarget "Demo Swift Carthage" */ = {
+		5D80A24B1F74DDFB00299BD5 /* Build configuration list for PBXNativeTarget "Demo Swift Carthage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DA272B41D8F843600CD47EF /* Debug */,
-				5DA272B51D8F843600CD47EF /* Release */,
+				5D80A24C1F74DDFB00299BD5 /* Debug */,
+				5D80A24D1F74DDFB00299BD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		5DA272B61D8F843600CD47EF /* Build configuration list for PBXNativeTarget "Demo Swift CarthageTests" */ = {
+		5D80A24E1F74DDFB00299BD5 /* Build configuration list for PBXNativeTarget "Demo Swift CarthageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DA272B71D8F843600CD47EF /* Debug */,
-				5DA272B81D8F843600CD47EF /* Release */,
+				5D80A24F1F74DDFB00299BD5 /* Debug */,
+				5D80A2501F74DDFB00299BD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		5DA272B91D8F843600CD47EF /* Build configuration list for PBXNativeTarget "Demo Swift CarthageUITests" */ = {
+		5D80A2511F74DDFB00299BD5 /* Build configuration list for PBXNativeTarget "Demo Swift CarthageUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DA272BA1D8F843600CD47EF /* Debug */,
-				5DA272BB1D8F843600CD47EF /* Release */,
+				5D80A2521F74DDFB00299BD5 /* Debug */,
+				5D80A2531F74DDFB00299BD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		5DA272921D8F843600CD47EF /* Demo_Swift_Carthage.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5DA272931D8F843600CD47EF /* Demo_Swift_Carthage.xcdatamodel */,
-			);
-			currentVersion = 5DA272931D8F843600CD47EF /* Demo_Swift_Carthage.xcdatamodel */;
-			path = Demo_Swift_Carthage.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 5DA272801D8F843500CD47EF /* Project object */;
+	rootObject = 5D80A21B1F74DDFA00299BD5 /* Project object */;
 }

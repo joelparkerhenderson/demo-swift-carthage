@@ -6,22 +6,24 @@ This demonstration shows:
 
   * The [Swift](http://swift.org) programming language with
     [Apple](http://apple.com)
-    [iOS](http://www.apple.com/ios/) and
     [Xcode](https://developer.apple.com/xcode/)
+    [iOS](http://www.apple.com/ios/)
 
   * The [Carthage](https://github.com/Carthage/Carthage) dependency manager.
 
   * The [Prelude](https://github.com/robrix/Prelude) Swift micro-framework of simple functional programming tools.
 
-There are multiple git branches, so pick the one you want:
+There are multiple git branches so pick the one you want:
 
-  * swift-3: Swift version 3, iOS version 8, Xcode version 10.
+  * swift-4-xcode-9: Swift version 4, Xcode version 9, iOS version 11.
 
-  * swift-4: Swift version 4, iOS version 9, Xcode version 11. All beta.
+  * swift-3-xcode-8: Swift version 3, Xcode version 8, iOS version 10.
 
-Your can get the project by cloning this repo.
+To use this project:
 
-Or if you prefer to learn how to create the project yourself, then this README explains how to do it.
+  * You can clone this repo.
+
+  * Or you can create the project yourself by using this README that explains how to do it.
 
 
 ## How to create the project
@@ -34,58 +36,82 @@ Or if you prefer to learn how to create the project yourself, then this README e
 
   * Choose the "iOS" radio button.
 
-  * Choose a template for your new project. We use "Single View Application".
+  * Choose the "Single View Application" icon.
 
-  * Click the button "Next".
+  * Tap the button "Next".
 
-1. Choose your product settings.
+1. You see the dialog "Choose options for your new project".
 
-  * For "Product Name", type "Demo Swift Carthage".
+  * For "Product Name", type "Demo Swift Hello World".
 
-  * For "Organization Name", type your own, typical a company name, team name, or similiar. For example, "My Example Company Name".
+  * For "Organization Name", type anything you want; typically this is your company's name, or team's name, or similiar. For example, "Example Company".
 
-  * For "Organization Identifier", type your own, typically a reverse-domain-name. For example, "com.example".
+  * For "Organization Identifier", type anything you want; typically this is your company's reverse domain name. For example, "com.example".
 
-  * Click the button "Next".
+  * Tap the button "Next".
 
-1. If Xcode prompts you to choose a development team, then do it.
+1. You see the file chooser.
 
-1. Need help? See our repo [demo_swift_hello_world](https://github.com/joelparkerhenderson/demo_swift_hello_world).
+  * Choose where to save your project.
+
+  * Tap the button "Create".
+
+  * Xcode creates the project.
 
 
-## Add Carthage
+## How to sign the project
 
-1. To see if you have Carthage installed, and if it is current, run this command:
+1. If Xcode shows a "Signing" area with a "Status" alert icon, here's how to solve it.
+
+  * Xcode may show a message such as "Signing for "Demo Swift Hello World" requires a development team. Select a development team in the project editor."
+
+  * In the same "Signing" section, choose the "Team" dropdown, and choose your Apple ID.
+
+  * If there's no Apple ID, then you need to add yours: Xcode → Preferences → Accounts → the "+" button → Add Apple ID
+
+
+## How to run
+
+1. Run the project.
+
+  * Xcode → Product → Run
+
+  * This is simply to verify that the project runs so far.
+
+1. The Simulator launches.
+
+  * The Simulator shows a blank screen.
+
+  * Quit the Simulator and go back to using Xcode.
+
+
+## Get Carthage
+
+1. To see if you have Carthage installed, and if the Carthage version is current, run this command:
 
     $ carthage version
-    0.17.2
+    0.25.0
 
-1. If you need to install Carthage, follow these [Carthage instructions](https://github.com/Carthage/Carthage)
+1. If Carthage is not installed, or the version is lower than 0.25.0:
 
-1. Go to the Xcode project "Build Phases" settings area.
-
-  * Click the "+" icon, then choose to add a new "Run Script".
-
-  * Click the triangle by the new "Run Script" list item.
-
-  * The "Shell" field should say `/bin/sh`.
-
-  * Set the bigger text field to say `/usr/local/bin/carthage copy-frameworks`
-
-  * In the area "Add input files here", click "+".
-
-  * Set the "Input Files" to `$(SRCROOT)/Carthage/Build/iOS/Prelude.framework`
+  * Use these [Carthage instructions](https://github.com/Carthage/Carthage)
 
 
 ## Create a Cartfile
  
-1. Create a file named `Cartfile` at the top level of the project. 
+1. Create an empty text file named `Cartfile` at the top level of the project. 
    
-1. In the `Cartfile`, list any framework you want, such the Prelude Swift micro-framework of simple functional programming tools.
+1. Edit the `Cartfile`.
 
-    github "robrix/Prelude"
+  * You can add any framework you want. 
 
-1. Run an update, and you see the system is getting the framework.
+  * For this demo, we add the "Prelude" framework, which is provides programming functions.
+
+  * Add this text:
+
+      github "robrix/Prelude"
+
+1. Update.
 
     $ carthage update
     *** Fetching Prelude
@@ -94,9 +120,9 @@ Or if you prefer to learn how to create the project yourself, then this README e
 
 1. See the results if you like.
 
-  * You now have a new directory `Carthage` that contains the Build directory and the framework files.
+  * There is a new file `Cartfile.resolved` that lists the framework and its exact version number.
 
-  * You now have a new file `Cartfile.resolved` that lists the framework and its exact version number.
+  * There is a new directory `Carthage`. This contains the `Build` directory and the framework files.
 
     $ ls -1
     Cartfile
@@ -114,22 +140,47 @@ Or if you prefer to learn how to create the project yourself, then this README e
     github "robrix/Prelude" "2.0.0"
 
 
-## Verify
+## Create Run Script
 
-1. Run the app as usual.
+1. Go to the Xcode project "Build Phases" settings area.
 
-  * This will verify that Carthage can connect the files.
+  * Click the "+" icon, then choose "New Run Script Phase".
+
+  * Click the triangle by the new "Run Script" list item.
+
+  * The "Shell" field should say `/bin/sh`.
+
+  * The larger text field should say `Type a script or drag a script file from your workspace to insert its path`.
+
+  * Set the larger text field to say `/usr/local/bin/carthage copy-frameworks`
+
+1. Add input files.
+
+  * In the area "Add input files here", click "+".
+
+  * Set the "Input Files" to `$(SRCROOT)/Carthage/Build/iOS/Prelude.framework`
+
+
+## How to run
+
+1. Run the project.
+
+  * Xcode → Product → Run
+
+1. The Simulator launches.
 
   * The app will launch normally. 
 
-  * Success!
+  * This verifies that Carthage can connect the files.
+
+  * Congratulations! You're successful!
 
   
 ## Tracking
 
 * Package: demo_swift_carthage
-* Version: 2.0.0
+* Version: 3.0.0
 * Created: 2016-04-09
-* Updated: 2016-09-18
+* Updated: 2017-09-22
 * License: BSD, MIT, GPL
 * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)

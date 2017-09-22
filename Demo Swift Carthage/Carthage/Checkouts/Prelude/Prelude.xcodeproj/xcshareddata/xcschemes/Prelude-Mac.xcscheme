@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5DA272871D8F843500CD47EF"
-               BuildableName = "Demo Swift Carthage.app"
-               BlueprintName = "Demo Swift Carthage"
-               ReferencedContainer = "container:Demo Swift Carthage.xcodeproj">
+               BlueprintIdentifier = "D4D33D8119FE8F8C001D051D"
+               BuildableName = "Prelude.framework"
+               BlueprintName = "Prelude-Mac"
+               ReferencedContainer = "container:Prelude.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D4D33D8C19FE8F8C001D051D"
+               BuildableName = "Prelude-MacTests.xctest"
+               BlueprintName = "Prelude-MacTests"
+               ReferencedContainer = "container:Prelude.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5DA2729E1D8F843600CD47EF"
-               BuildableName = "Demo Swift CarthageTests.xctest"
-               BlueprintName = "Demo Swift CarthageTests"
-               ReferencedContainer = "container:Demo Swift Carthage.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5DA272A91D8F843600CD47EF"
-               BuildableName = "Demo Swift CarthageUITests.xctest"
-               BlueprintName = "Demo Swift CarthageUITests"
-               ReferencedContainer = "container:Demo Swift Carthage.xcodeproj">
+               BlueprintIdentifier = "D4D33D8C19FE8F8C001D051D"
+               BuildableName = "Prelude-MacTests.xctest"
+               BlueprintName = "Prelude-MacTests"
+               ReferencedContainer = "container:Prelude.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5DA272871D8F843500CD47EF"
-            BuildableName = "Demo Swift Carthage.app"
-            BlueprintName = "Demo Swift Carthage"
-            ReferencedContainer = "container:Demo Swift Carthage.xcodeproj">
+            BlueprintIdentifier = "D4D33D8119FE8F8C001D051D"
+            BuildableName = "Prelude.framework"
+            BlueprintName = "Prelude-Mac"
+            ReferencedContainer = "container:Prelude.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -71,16 +75,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5DA272871D8F843500CD47EF"
-            BuildableName = "Demo Swift Carthage.app"
-            BlueprintName = "Demo Swift Carthage"
-            ReferencedContainer = "container:Demo Swift Carthage.xcodeproj">
+            BlueprintIdentifier = "D4D33D8119FE8F8C001D051D"
+            BuildableName = "Prelude.framework"
+            BlueprintName = "Prelude-Mac"
+            ReferencedContainer = "container:Prelude.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +93,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5DA272871D8F843500CD47EF"
-            BuildableName = "Demo Swift Carthage.app"
-            BlueprintName = "Demo Swift Carthage"
-            ReferencedContainer = "container:Demo Swift Carthage.xcodeproj">
+            BlueprintIdentifier = "D4D33D8119FE8F8C001D051D"
+            BuildableName = "Prelude.framework"
+            BlueprintName = "Prelude-Mac"
+            ReferencedContainer = "container:Prelude.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
