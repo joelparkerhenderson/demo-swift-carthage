@@ -33,32 +33,6 @@ Launch Xcode and create a new Xcode project.
 
   * [Help](doc/setup/create_a_new_xcode_project.md)
 
-Add Charts to the project. We suggest using Carthage, or Cocoapods, or Swift Package Manager.
-
-  * The repo is `github "danielgindi/Charts"`.
-
-  * [Help](doc/setup/add_carthage_frameworks.md)
-
-
-## Create the project
-
-
-
-
-## Run the project
-
-Run the project for the first time.
-
-  * Xcode → Product → Run
-
-  * This is simply to verify that the project runs so far.
-
-The Simulator launches.
-
-  * The Simulator shows a blank screen.
-
-  * Quit the Simulator and go back to using Xcode.
-
 
 ## Get Carthage
 
