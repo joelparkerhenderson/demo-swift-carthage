@@ -140,7 +140,35 @@ To use this project:
     github "robrix/Prelude" "2.0.0"
 
 
-## Create Run Script
+## Link the framework
+
+1. Go to the Xcode project "General" area.
+
+1. Scroll down the section "Linked Frameworks and Libraries", with the text that says "Add frameworks &amp; libraries here".
+
+1. Tap the "+" icon.
+
+  * A dialog opens that says "Choose frameworks and libraries to add".
+
+  * Tap the button "Add Other..."
+
+1. Choose the framework.
+
+  * A file chooser opens.
+
+  * Navigate up a folder, and you see the "Carthage" folder.
+
+  * Open the folder "Carthage", then the folder "Build", then the folder "iOS".
+
+  * Tap the file "Prelude.framework" to highlight it.
+
+  * Tap "Open"
+
+1. The section "Linked Frameworks and Libraries" now shows "Prelude.framework".
+
+
+
+## Create the Run Script
 
 1. Go to the Xcode project "Build Phases" settings area.
 
@@ -161,7 +189,7 @@ To use this project:
   * Set the "Input Files" to `$(SRCROOT)/Carthage/Build/iOS/Prelude.framework`
 
 
-## How to run
+## Run
 
 1. Run the project.
 
